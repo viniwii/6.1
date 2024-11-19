@@ -4,6 +4,9 @@ def add(a, b):
 def substract(a, b):
     return a - b
 
+def multiply(a, b):
+    return a * b
+
 print('Welcome to the simple calculator!')
 print('Available operations: add, sub, mul')
 
@@ -15,3 +18,5 @@ if operation == 'add':
     print(f'Result: {add(num1, num2)}')
 elif operation == 'sub':
     print(f'Result: {subtract(num1, num2)}')
+elif operation == 'mul':
+    print(f'Result: {multiply(num1, num2)}')
